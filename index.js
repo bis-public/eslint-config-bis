@@ -44,7 +44,16 @@ module.exports = {
         'no-new-func': 'error',
         'no-new-wrappers': 'error',
         'no-path-concat': 'error',
+        'no-return-assign': [
+            'error',
+            'always'
+        ],
+        'no-self-compare': 'error',
+        'no-shadow': 'error',
+        'no-throw-literal': 'error',
         'no-trailing-spaces': 'error',
+        'no-useless-concat': 'error',
+        'no-useless-return': 'error',
         'no-warning-comments': [
             'warn',
             {
@@ -71,6 +80,7 @@ module.exports = {
             'error',
             'always'
         ],
+        'semi-spacing': 'error',
         'space-before-blocks': 'error',
         'space-before-function-paren': [
             'error',
