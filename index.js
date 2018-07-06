@@ -3,6 +3,7 @@
 module.exports = {
     extends: 'eslint:recommended',
     rules: {
+        'array-callback-return': 'error',
         'block-scoped-var': 'error',
         'block-spacing': 'error',
         'brace-style': 'error',
@@ -20,6 +21,7 @@ module.exports = {
         'eol-last': 'error',
         eqeqeq: 'error',
         'func-call-spacing': 'error',
+        'global-require': 'error',
         indent: [
             'error',
             4,
