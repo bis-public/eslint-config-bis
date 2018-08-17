@@ -3,6 +3,7 @@
 module.exports = {
     extends: 'eslint:recommended',
     rules: {
+        'array-callback-return': 'error',
         'block-scoped-var': 'error',
         'block-spacing': 'error',
         'brace-style': 'error',
@@ -20,6 +21,7 @@ module.exports = {
         'eol-last': 'error',
         eqeqeq: 'error',
         'func-call-spacing': 'error',
+        'global-require': 'error',
         indent: [
             'error',
             4,
@@ -44,7 +46,16 @@ module.exports = {
         'no-new-func': 'error',
         'no-new-wrappers': 'error',
         'no-path-concat': 'error',
+        'no-return-assign': [
+            'error',
+            'always'
+        ],
+        'no-self-compare': 'error',
+        'no-shadow': 'error',
+        'no-throw-literal': 'error',
         'no-trailing-spaces': 'error',
+        'no-useless-concat': 'error',
+        'no-useless-return': 'error',
         'no-warning-comments': [
             'warn',
             {
@@ -71,6 +82,7 @@ module.exports = {
             'error',
             'always'
         ],
+        'semi-spacing': 'error',
         'space-before-blocks': 'error',
         'space-before-function-paren': [
             'error',
