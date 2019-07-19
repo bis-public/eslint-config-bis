@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-bis",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint configuration to help comply with BIS JavaScript standards.",
   "main": "index.js",
   "author": "Dylan Kerr",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^3.10.0"
+    "eslint": "^4.18.2"
   },
   "peerDependencies": {
-    "eslint": ">=3.10.0"
+    "eslint": ">=4.18.2"
   }
 }
